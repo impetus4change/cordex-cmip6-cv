@@ -1,0 +1,6 @@
+{
+    "product": {
+        "emulator-output": "Result of a statistical emulator of a numerical model",
+        "model-output": "Result of a numerical model simulation"
+    }
+}
