@@ -1,8 +1,6 @@
 {
-    "activity_id": [
-        "RCM",
-        "ESD",
-        "FPS",
-        "Adjust"
-    ]
+  "activity_id": {
+    "DD": "Dynamical downscaling",
+    "ESD": "Empirical-statistical downscaling"
+   }
 }
