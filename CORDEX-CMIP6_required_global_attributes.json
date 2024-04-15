@@ -11,6 +11,8 @@
         "driving_institution_id",
         "driving_source_id",
         "driving_variant_label",
+        "emulator",
+        "emulator_id",
         "frequency",
         "grid",
         "institution",
@@ -22,7 +24,12 @@
         "source",
         "source_id",
         "source_type",
+        "target_institution_id",
+        "target_source_id",
+        "target_version_realization",
         "tracking_id",
+        "training",
+        "training_id",
         "variable_id",
         "version_realization"
     ]

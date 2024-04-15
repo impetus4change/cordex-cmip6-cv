@@ -1,5 +1,6 @@
 {
     "source_type": {
+        "RCM-emulator": "Statistical emulator of a regional climate model",
         "ARCM": "atmospheric regional climate model, including a land model",
         "AORCM": "atmosphere-ocean regional climate model",
         "AGCM": "atmosphere global climate model including variable resolution",
