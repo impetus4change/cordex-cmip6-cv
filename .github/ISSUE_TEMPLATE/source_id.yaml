@@ -1,7 +1,7 @@
 name: Register a new model
 description: Register a new model (source_id) for the CORDEX-CMIP6 CV.
 title: "source_id registration of ..."
-labels: ["Register source-id"]
+labels: ["Register source_id"]
 body:
 
   - type: markdown
@@ -41,7 +41,7 @@ body:
         An identifier corresponding to `label` but with forbidden
         characters either removed or replaced by a hyphen (`-`).
         The `source_id` will appear in the ESGF search interface and in filenames
-        a subdirectory names.
+        and subdirectory names.
         Restrict characters used in source_id to letters, numbers and hyphens
         (e.g. NO dots, spaces or underscores are allowed).
         There is a limitation of 25 characters for this field.
@@ -62,6 +62,7 @@ body:
         - ARCM
         - AORCM
         - AGCM
+        - AOGCM
     validations:
       required: true
 
@@ -107,9 +108,9 @@ body:
       required: true
 
   - type: input
-    id: futher_info_url
+    id: further_info_url
     attributes:
-      label: futher_info_url
+      label: further_info_url
       description: >
         A URL that points to the latest documentation of this model version.
         You can initially register with a general documentation URL for the model,
