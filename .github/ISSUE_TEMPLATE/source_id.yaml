@@ -45,7 +45,7 @@ body:
         Restrict characters used in source_id to letters, numbers and hyphens
         (e.g. NO dots, spaces or underscores are allowed).
         There is a limitation of 25 characters for this field.
-      placeholder: ex. `REMO2020` or `WRF442Q`
+      placeholder: ex. `REMO2020` or `WRF442Q-emul-DeepESD1-tAR`
     validations:
       required: true
 
@@ -63,6 +63,7 @@ body:
         - AORCM
         - AGCM
         - AOGCM
+        - RCM-emulator
     validations:
       required: true
 
@@ -90,6 +91,7 @@ body:
       options:
         - DD
         - ESD
+        - emulation
     validations:
       required: true
 
@@ -126,7 +128,7 @@ body:
       label: What license do you choose?
       multiple: false
       options:
-        - CC0
         - CC BY 4.0
+        - CC0
     validations:
       required: true
