@@ -1,6 +1,7 @@
 {
   "activity_id": {
     "DD": "Dynamical downscaling",
-    "ESD": "Empirical-statistical downscaling"
+    "ESD": "Empirical-statistical downscaling",
+    "emulation": "Statistical emulation of a dynamical downscaling model"
    }
 }
