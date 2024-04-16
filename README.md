@@ -1,11 +1,11 @@
-# I4C Controlled Vocabulary (CV) for use in archiving RCM-emulator results
+# I4C Controlled Vocabulary (CV) for use in archiving ESD output
 
 This is a fork of the [CORDEX-CMIP6 CV](https://github.com/WCRP-CORDEX/cordex-cmip6-cv) to develop a new CV for RCM-emulator output data to be used in Impetus4Change.
 
-You can check differences with the base CORDEX-CMIP6 CV for dynamical downscaling [here](https://github.com/impetus4change/cordex-cmip6-cv/compare/main..emulators).
+You can check differences with the base CORDEX-CMIP6 CV for dynamical downscaling [here](https://github.com/impetus4change/cordex-cmip6-cv/compare/main..esd).
 
-## Emulator registration
-To register your institution or emulator, please submit an issue using these forms:
+## ESD method registration
+To register your institution or ESD method, please submit an issue using these forms:
 
 * [New institution_id](https://github.com/impetus4change/cordex-cmip6-cv/issues/new?assignees=&labels=Register+institution-id&projects=&template=institution_id.yaml&title=institution_id+registration+of+...)
 * [New source_id (i.e. model)](https://github.com/impetus4change/cordex-cmip6-cv/issues/new?assignees=&labels=Register+source-id&projects=&template=source_id.yaml&title=source_id+registration+of+...)
